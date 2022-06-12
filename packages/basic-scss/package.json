@@ -1,18 +1,31 @@
 {
-  "name": "@study-sea/styleint-basic-scss",
+  "name": "@study-sea/stylelint-basic-scss",
   "version": "0.0.1",
-  "description": "stylelint rules for scss",
+  "description": "stylelint rules for basic scss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm public --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-study-program/stylelint-config.git"
   },
   "keywords": [
+    "stylelint",
     "basic",
     "scss"
   ],
   "author": "眼圈发黑 <1449826851@qq.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/front-end-study-program/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/front-end-study-program/stylelint-config#readme",
   "dependencies": {
     "stylelint-config-standard-scss": "^4.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14.5.1 <15.0.0",
+    "postcss": "^8.3.3"
   }
 }
