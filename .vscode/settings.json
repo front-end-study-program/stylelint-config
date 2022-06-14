@@ -1,5 +1,16 @@
 {
   "cSpell.words": [
     "stylelint"
-  ]
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss", "less"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.styleint": true,
+    "source.fixAll": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  }
 }

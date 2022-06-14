@@ -1,3 +1,6 @@
 {
-  extends: "@study-sea/stylelint-basic-scss"
+  "extends": "@study-sea/stylelint-basic-scss",
+  "rules": {
+    "block-no-empty": null
+  }
 }

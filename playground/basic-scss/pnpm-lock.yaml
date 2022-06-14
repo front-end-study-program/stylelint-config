@@ -12,8 +12,10 @@ importers:
 
   ../../packages/basic-scss:
     specifiers:
+      stylelint-config-prettier-scss: ^0.0.1
       stylelint-config-standard-scss: ^4.0.0
     dependencies:
+      stylelint-config-prettier-scss: 0.0.1_stylelint@14.9.1
       stylelint-config-standard-scss: 4.0.0_stylelint@14.9.1
 
 packages:
@@ -965,6 +967,27 @@ packages:
   /style-search/0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
+
+  /stylelint-config-prettier-scss/0.0.1_stylelint@14.9.1:
+    resolution: {integrity: sha512-lBAYG9xYOh2LeWEPC/64xeUxwOTnQ8nDyBijQoWoJb10/bMGrUwnokpt8jegGck2Vbtxh6XGwH63z5qBcVHreQ==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    peerDependencies:
+      stylelint: '>=11.0.0'
+    dependencies:
+      stylelint: 14.9.1
+      stylelint-config-prettier: 9.0.3_stylelint@14.9.1
+    dev: false
+
+  /stylelint-config-prettier/9.0.3_stylelint@14.9.1:
+    resolution: {integrity: sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    peerDependencies:
+      stylelint: '>=11.0.0'
+    dependencies:
+      stylelint: 14.9.1
+    dev: false
 
   /stylelint-config-recommended-scss/6.0.0_stylelint@14.9.1:
     resolution: {integrity: sha512-6QOe2/OzXV2AP5FE12A7+qtKdZik7Saf42SMMl84ksVBBPpTdrV+9HaCbPYiRMiwELY9hXCVdH4wlJ+YJb5eig==}
