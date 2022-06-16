@@ -1,7 +1,7 @@
 {
-  "name": "@study-sea/stylelint-basic-scss",
+  "name": "@study-sea/stylelint-basic-less",
   "version": "0.0.1",
-  "description": "stylelint rules for basic scss",
+  "description": "stylelint rules for basic less",
   "main": "index.js",
   "scripts": {
     "release": "npm public --access=public"
@@ -13,7 +13,7 @@
   "keywords": [
     "stylelint",
     "basic",
-    "scss"
+    "less"
   ],
   "files": [
     "index.js",
@@ -26,13 +26,5 @@
   "bugs": {
     "url": "https://github.com/front-end-study-program/stylelint-config/issues"
   },
-  "homepage": "https://github.com/front-end-study-program/stylelint-config#readme",
-  "dependencies": {
-    "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard-scss": "^4.0.0"
-  },
-  "peerDependencies": {
-    "postcss": "^8.3.3",
-    "stylelint": ">=14.5.1 <15.0.0"
-  }
+  "homepage": "https://github.com/front-end-study-program/stylelint-config#readme"
 }

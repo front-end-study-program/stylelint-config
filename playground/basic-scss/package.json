@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "stylelint": "^14.9.1",
-    "@study-sea/stylelint-basic-scss": "workspace:basic-scss"
+    "@study-sea/stylelint-basic-scss": "workspace:basic-scss",
+    "stylelint": "^14.9.1"
   }
 }
