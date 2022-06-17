@@ -1,0 +1,15 @@
+{
+  "name": "basic-less-playground",
+  "version": "1.0.0",
+  "description": "stylelint rules for basic less playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@study-sea/stylelint-basic-less": "workspace:basic-less",
+    "stylelint": "^14.9.1"
+  }
+}

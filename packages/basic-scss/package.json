@@ -29,7 +29,9 @@
   "homepage": "https://github.com/front-end-study-program/stylelint-config#readme",
   "dependencies": {
     "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard-scss": "^4.0.0"
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-order": "^5.0.0"
   },
   "peerDependencies": {
     "postcss": "^8.3.3",

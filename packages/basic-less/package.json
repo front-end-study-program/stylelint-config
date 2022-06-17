@@ -26,5 +26,15 @@
   "bugs": {
     "url": "https://github.com/front-end-study-program/stylelint-config/issues"
   },
-  "homepage": "https://github.com/front-end-study-program/stylelint-config#readme"
+  "homepage": "https://github.com/front-end-study-program/stylelint-config#readme",
+  "dependencies": {
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended-less": "^1.0.4",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-less": "^1.0.5",
+    "stylelint-order": "^5.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14.0.0"
+  }
 }
