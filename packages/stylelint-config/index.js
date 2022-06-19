@@ -3,7 +3,7 @@
 module.exports = {
   overrides: [
     {
-      files: ["*.css", "**/*.css", "*.less", "**/*.less", "*.scss", "**/*.scss", "*.vue", "**/*.vue"],
+      files: ["*.css", "**/*.css"],
       extends: [
         "stylelint-config-standard",
         "stylelint-config-rational-order"
@@ -12,20 +12,27 @@ module.exports = {
     {
       files: ["*.scss", "**/*.scss"],
       extends: [
-        "stylelint-config-recommended-scss"
+        "stylelint-config-standard",
+        "stylelint-config-recommended-scss",
+        "stylelint-config-rational-order"
       ]
     },
     {
       files: ["*.less", "**/*.less"],
       extends: [
-        "stylelint-config-recommended-less"
+        "stylelint-config-standard",
+        "stylelint-config-recommended-less",
+        "stylelint-config-rational-order"
       ]
     },
     {
       files: ["*.vue", "**/*.vue"],
       extends: [
-        "stylelint-config-recommended-vue"
+        "stylelint-config-standard",
+        "stylelint-config-recommended-vue",
+        "stylelint-config-rational-order"
       ]
     }
-  ]
+  ],
+  "defaultSeverity": "warning",
 }
