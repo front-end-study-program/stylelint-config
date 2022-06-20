@@ -4,7 +4,6 @@ importers:
 
   .:
     specifiers:
-      '@study-sea/stylelint-config-recommended': workspace:stylelint-config
       '@vitejs/plugin-vue': ^2.3.3
       less: ^4.1.3
       scss: ^0.2.4
@@ -16,7 +15,6 @@ importers:
     dependencies:
       vue: 3.2.37
     devDependencies:
-      '@study-sea/stylelint-config-recommended': link:../../packages/stylelint-config
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
       less: 4.1.3
       scss: 0.2.4
