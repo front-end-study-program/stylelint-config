@@ -31,6 +31,7 @@
   "homepage": "https://github.com/front-end-study-program/stylelint-config#readme",
   "dependencies": {
     "postcss-html": "^1.4.1",
+    "stylelint-config-html": "^1.0.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended-less": "^1.0.4",
     "stylelint-config-recommended-scss": "^6.0.0",

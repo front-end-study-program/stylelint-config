@@ -6,7 +6,8 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "stylelint.validate": ["css", "scss", "less", "vue"],
+  "html.validate.styles": false,
+  "stylelint.validate": ["css", "scss", "less", "vue", "html"],
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true,
     "source.fixAll": true

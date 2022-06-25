@@ -3,6 +3,14 @@
 module.exports = {
   overrides: [
     {
+      files: ["*.html", "**/*.html"],
+      extends: [
+        "stylelint-config-html/html",
+        "stylelint-config-standard",
+        "stylelint-config-rational-order"
+      ]
+    },
+    {
       files: ["*.css", "**/*.css"],
       extends: [
         "stylelint-config-standard",
@@ -34,5 +42,6 @@ module.exports = {
       ]
     }
   ],
-  "defaultSeverity": "warning",
+  defaultSeverity: "warning",
+  ignoreFiles: ["dist/**/*", "node_modules/**/*"]
 }
