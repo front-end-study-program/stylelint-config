@@ -5,10 +5,11 @@
 ## 使用
 
 ```js
-  pnpm i @study-sea/stylelint-config-recommended --save-dev
+  pnpm i stylelint @study-sea/stylelint-config-recommended --save-dev
 ```
 
 ```json
+// .stylelintrc
 {
   "extends": [
     "@study-sea/stylelint-config-recommended"
